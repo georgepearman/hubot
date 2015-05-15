@@ -14,5 +14,6 @@
   "hubot-scripts/src/scripts/trolololo.coffee",
   "hubot-scripts/src/scripts/botsnack.coffee",
   "hubot-scripts/src/scripts/uptime.coffee",
+  "hubot-scripts/src/scripts/reload.coffee",
   "hubot-scripts/src/scripts/corgime.coffee"
 ]
