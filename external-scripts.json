@@ -7,6 +7,7 @@
   "hubot-redis-brain",
   "hubot-shipit",
   "hubot-youtube",
+  "hubot-plusplus",
   "hubot-scripts/src/scripts/abstract.coffee",
   "hubot-scripts/src/scripts/alot.coffee",
   "hubot-scripts/src/scripts/beerme.coffee",
