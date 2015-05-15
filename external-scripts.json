@@ -1,7 +1,6 @@
 [
   "hubot-diagnostics",
   "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",
@@ -9,5 +8,12 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-youtube"
+  "hubot-youtube",
+  "hubot-scripts/src/scripts/abstract.coffee",
+  "hubot-scripts/src/scripts/alot.coffee",
+  "hubot-scripts/src/scripts/beerme.coffee",
+  "hubot-scripts/src/scripts/cowsay.coffee",
+  "hubot-scripts/src/scripts/trolololo.coffee",
+  "hubot-scripts/src/scripts/botsnack.coffee",
+  "hubot-scripts/src/scripts/corgime.coffee"
 ]
