@@ -9,3 +9,6 @@ module.exports = (robot) ->
 
   robot.hear /[a-z]+-ass \w+/i, (res) ->
     res.send res.message.toString().replace('-ass ', ' ass-')
+
+  robot.hear /\ ex/i, (res) ->
+    res.send res.message.toString().replace(' ex', ' sex')
