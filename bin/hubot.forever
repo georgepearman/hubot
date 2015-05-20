@@ -7,4 +7,5 @@ export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
 #exec node_modules/.bin/hubot --name "hubot" --alias '!' "$@"
 echo "hubot.forever was called!" >> ~/hubot.log
+source /home/hubot/api_keys
 forever start --uid hubot --pidfile /home/hubot/hubot.pid --append -l /home/hubot/hubot.log -c coffee node_modules/hubot/bin/hubot --alias '!' -a slack
