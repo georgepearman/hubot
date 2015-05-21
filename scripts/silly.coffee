@@ -11,4 +11,4 @@ module.exports = (robot) ->
     res.send res.message.toString().replace('-ass ', ' ass-')
 
   robot.hear /\ _?ex/i, (res) ->
-    res.send res.message.toString().replace(' ex', ' sex')
+    res.send res.message.toString().replace(' ex', ' sex').replace(' _ex', ' _sex')
